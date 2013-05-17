@@ -1,0 +1,28 @@
+[user]
+	name = Nicolas Drebenstedt
+	email = ... 
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+[color "branch"]
+	current = red
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+	amend = commit --amend
+	slog = log --pretty=oneline --abbrev-commit
+	glog = log --graph --decorate --pretty=oneline --abbrev-commit
+	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	uncommit = reset HEAD^
+	ls = ls-files
+	out = log HEAD..origin
+	sync = !git pull && git push

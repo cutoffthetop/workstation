@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[import pdb;from pprint import pprint as pp;pdb.set_trace();isp=lambda x:pp(dir(x));
+]]></content>
+	<tabTrigger>pdf</tabTrigger>
+	<description>Python Debugger Full</description>
+	<scope>source.python</scope>
+</snippet>

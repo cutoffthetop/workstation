@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+"""
+    ${1:package.module}
+    ${1/./~/g}
+
+    This module ${2:has no description}.
+
+"""
+
+]]></content>
+	<tabTrigger>module doc</tabTrigger>
+	<scope>source.python</scope>
+	<description>Module Doc String</description>
+</snippet>
