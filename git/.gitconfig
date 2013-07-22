@@ -3,6 +3,7 @@
 	email = ... 
 [core]
 	excludesfile = ~/.gitignore
+	editor = vim
 [color]
 	ui = auto
 [color "branch"]
