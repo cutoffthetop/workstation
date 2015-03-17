@@ -1,9 +1,10 @@
 [user]
 	name = Nicolas Drebenstedt
-	email = ... 
+	email = …
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
+	whitespace = trailing-space,space-before-tab
 [color]
 	ui = auto
 [color "branch"]
@@ -18,12 +19,41 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
 [alias]
-	amend = commit --amend
 	slog = log --pretty=oneline --abbrev-commit
 	glog = log --graph --decorate --pretty=oneline --abbrev-commit
-	gloga = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	amend = commit --amend
 	uncommit = reset HEAD^
+	unstage = reset HEAD
 	ls = ls-files
-	out = log HEAD..origin
-	sync = !git pull && git push
+	co = checkout
+	ci = commit
+	mg = merge
+	# UP: Pull in latest changes from your remote master.
+	up = "!f() { git pull $(git config branch.master.remote) master; }; f"
+	# OUT: See all outgoing commits that you would be pushing with a push.
+	out = "!f() { git log --pretty=oneline --abbrev-commit $(git rev-parse --abbrev-ref --symbolic-full-name @{u})..HEAD; }; f"
+	# MIT: Commit with an inline message and the current branch name as a prefix.
+	mit = "!f() { if [[ -n \"$GIT_PREFIX\" ]]; then cd $GIT_PREFIX; fi && git commit -m \"$(git rev-parse --abbrev-ref HEAD): $(eval echo $1)\" $(echo ${*:2}); }; f"
+	# TICK: List all ticket IDs amogst your local branches.
+	tick = "!f() { : git log ; echo 'Printing tickets'; git log --oneline $@ | egrep -o [A-Z]+-[0-9]+ | sort | uniq; }; f"
+	# CH: Commit that dreary changes file with a branch-prefixed commit message.
+	ch = "!f() { git commit -m \"$(git rev-parse --abbrev-ref HEAD): Update changes\" $(git rev-parse --show-toplevel)/CHANGES*; }; f"
+[push]
+	default = current
+[branch]
+	autosetupmerge = true
+[merge]
+	defaultToUpstream = true
+[advice]
+	statusHints = false
+[diff]
+	renames = copies
+[rerere]
+	enabled = true
+[github]
+	token = …
+	user = cutoffthetop
