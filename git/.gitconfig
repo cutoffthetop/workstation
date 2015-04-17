@@ -39,7 +39,7 @@
 	# MIT: Commit with an inline message and the current branch name as a prefix.
 	mit = "!f() { if [[ -n \"$GIT_PREFIX\" ]]; then cd $GIT_PREFIX; fi && git commit -m \"$(git rev-parse --abbrev-ref HEAD): $(eval echo $1)\" $(echo ${*:2}); }; f"
 	# TICK: List all ticket IDs amogst your local branches.
-	tick = "!f() { : git log ; echo 'Printing tickets'; git log --oneline $@ | egrep -o [A-Z]+-[0-9]+ | sort | uniq; }; f"
+	tick = "!f() { : git log ; git log --oneline $@ | egrep -o [A-Z]+-[0-9]+ | sort | uniq; }; f"
 	# CH: Commit that dreary changes file with a branch-prefixed commit message.
 	ch = "!f() { git commit -m \"$(git rev-parse --abbrev-ref HEAD): Update changes\" $(git rev-parse --show-toplevel)/CHANGES*; }; f"
 [push]
