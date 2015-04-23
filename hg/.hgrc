@@ -1,0 +1,18 @@
+[ui]
+username = Nicolas Drebenstedt < … >
+ignore = ~/.hgignore
+
+[extensions]
+fetch =
+color =
+shelve =
+pager =
+record =
+purge =
+mq =
+
+[pager]
+pager = LESS='FSRX' less
+
+[alias]
+branchdiff = diff -r "max(ancestors('$1') and branch(default)):'$1'"

@@ -1,0 +1,33 @@
+syntax: glob
+
+# Compiled sources
+*.com
+*.class
+*.o
+*.pyc
+*.pyo
+*.so
+*.egg-info
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.Python
+.pin
