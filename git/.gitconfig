@@ -43,7 +43,7 @@
 	# CH: Commit that dreary changes file with a branch-prefixed commit message.
 	ch = "!f() { git commit -m \"$(git rev-parse --abbrev-ref HEAD): Update changes\" $(git rev-parse --show-toplevel)/CHANGES*; }; f"
 	# MPR: Merge pull request corresponding to the current branch into the configured master remote. 
-	mpr = "!f() { export GIT_REMOTE='$(git config branch.master.remote)'; git pulls merge $(git pulls list|awk -v pattern='/$(git rev-parse --abbrev-ref HEAD)/' '$0 ~ pattern {p=1} END {print $1;}')
+	mpr = "!f() { export GIT_REMOTE='$(git config branch.master.remote)'; git pulls merge $(git pulls list|awk -v pattern='/$(git rev-parse --abbrev-ref HEAD)/' '$0 ~ pattern {p=1} END {print $1;}')"
 [push]
 	default = current
 [branch]
