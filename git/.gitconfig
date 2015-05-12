@@ -5,6 +5,7 @@
 	excludesfile = ~/.gitignore
 	editor = vim
 	whitespace = trailing-space,space-before-tab
+	pager = less -x1,5
 [color]
 	ui = auto
 [color "branch"]
