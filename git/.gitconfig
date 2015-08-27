@@ -46,7 +46,7 @@
 	# MPR: Merge pull request corresponding to the current branch into the configured master remote. 
 	mpr = "!f() { export GIT_REMOTE='$(git config branch.master.remote)'; git pulls merge $(git pulls list|awk -v pattern='/$(git rev-parse --abbrev-ref HEAD)/' '$0 ~ pattern {p=1} END {print $1;}')"
 	# SUBL: Open all modified files in sublime.
-	subl = "!f() { sublime `git status --porcelain | awk '{print $2}'`; }; f"
+	subl = "!f() { sublime `for i in $(git status --porcelain | awk '{print $2}'); do git diff --no-prefix -U0 -- $i | awk 'NR==3{printf $2 \":\"}NR==5{gsub(/-/,\"\",$2);print $2}'; done;`; }; f"
 [push]
 	default = current
 [branch]
