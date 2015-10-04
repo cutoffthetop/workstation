@@ -4,12 +4,7 @@ Install latest version of Mac OS X, configure System Preferences and install App
 
 Install command line tools.
 ```shell
-touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress && sudo softwareupdate -i -a
-```
-
-Accept the Apple SDKs agreement.
-```shell
-sudo git --version
+sudo touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress && softwareupdate -i -a && git --version
 ```
 
 Get RVM, ruby and homebrew.
