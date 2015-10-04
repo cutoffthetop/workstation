@@ -24,22 +24,22 @@ Setup pip and virtualenv.
 easy_install pip && pip install virtualenv
 ```
 
-Get brew essentials.
+Get essential brews.
 ```shell
-brew install git python mercurial libjpg graphviz wget
+brew install autoconf automake brew-cask cadaver cairo cask csshx emacs gettext git glib gmp4 gnupg graphviz htop-osx imagemagick jpeg keybase libevent libexif libjpg libffi libgpg-error libgsf libksba libmemcached libpng libtiff libtool libxml2 libxslt libyaml memcached mercurial nginx ngrok node openssl openvpn pkg-config python readline redis sqlite ssh-copy-id tree vcprompt watch wget wxpython
 ```
 
-Get gem essentials.
+Get essential gems.
 ```shell
 gem install bundler compass
 ```
 
-Install homebrew cask command.
+Get essential casks.
 ```shell
-brew install caskroom/cask/brew-cask
+brew cask install google-chrome firefox spotify sublime-text vlc
 ```
 
-Install cask apps.
+Get essential eggs.
 ```shell
-brew cask install spotify google-chrome
+pip install flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six wheel
 ```
