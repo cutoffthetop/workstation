@@ -24,7 +24,7 @@ brew install autoconf automake brew-cask cadaver cairo cask csshx emacs gettext 
 
 Get essential gems.
 ```shell
-gem install bundler compass
+gem install bundler compass rails
 ```
 
 Get essential casks.
@@ -34,7 +34,7 @@ brew cask install google-chrome firefox slack spotify sublime-text vagrant vlc
 
 Get essential eggs.
 ```shell
-pip install celery flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six sqlalchemy virtualenv wheel
+pip install celery flask ipython Jinja2 lxml pep8 pyflakes pyramid setuptools setuptools-git six sqlalchemy virtualenv wheel
 ```
 
 Get essential nodes.
