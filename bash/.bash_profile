@@ -23,6 +23,7 @@ export BASEPROMPT='\e${RED_COLOR}\u \
 
 export PS1="\[\033[G\]${BASEPROMPT}\n$ "
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export TERM=xterm-color
 
 if [ `uname` == "Darwin" ]; then
