@@ -29,8 +29,17 @@ Get brew essentials.
 brew install git python mercurial libjpg graphviz wget
 ```
 
-Get gem essentials:
+Get gem essentials.
+```shell
+gem install bundler compass
+```
+
 Install homebrew cask command.
 ```shell
 brew install caskroom/cask/brew-cask
+```
+
+Install cask apps.
+```shell
+brew cask install spotify google-chrome
 ```
