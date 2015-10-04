@@ -29,7 +29,7 @@ gem install bundler compass
 
 Get essential casks.
 ```shell
-brew cask install google-chrome firefox slack spotify sublime-text vlc
+brew cask install google-chrome firefox slack spotify sublime-text vagrant vlc
 ```
 
 Get essential eggs.
