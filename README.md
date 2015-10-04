@@ -36,3 +36,5 @@ Get essential nodes.
 ```shell
 npm install -g bower gulp grunt requirejs yo
 ```
+
+_TODO: Let chef do all the work_
