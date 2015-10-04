@@ -17,11 +17,6 @@ Get RVM, ruby and homebrew.
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3 && source ~/.rvm/scripts/rvm
 ```
 
-Setup pip and virtualenv.
-```shell
-easy_install pip && pip install virtualenv
-```
-
 Get essential brews.
 ```shell
 brew install autoconf automake brew-cask cadaver cairo cask csshx emacs gettext git glib gmp4 gnupg graphviz htop-osx imagemagick jpeg keybase libevent libexif libjpg libffi libgpg-error libgsf libksba libmemcached libpng libtiff libtool libxml2 libxslt libyaml memcached mercurial nginx ngrok node openssl openvpn pkg-config python readline redis sqlite ssh-copy-id tree vcprompt watch wget wxpython
@@ -39,5 +34,5 @@ brew cask install google-chrome firefox slack spotify sublime-text vlc
 
 Get essential eggs.
 ```shell
-pip install flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six wheel
+pip install flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six virtualenv wheel
 ```
