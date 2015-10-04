@@ -39,5 +39,5 @@ pip install celery flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools
 
 Get essential nodes.
 ```shell
-npm install -g bower gulp grunt yo
+npm install -g bower gulp grunt requirejs yo
 ```
