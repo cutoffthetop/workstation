@@ -19,6 +19,17 @@ Get RVM, ruby and homebrew.
 \curl -sSL https://get.rvm.io | bash -s stable --ruby=1.9.3 && source ~/.rvm/scripts/rvm
 ```
 
+Setup pip and virtualenv.
+```shell
+easy_install pip && pip install virtualenv
+```
+
+Get brew essentials.
+```shell
+brew install git python mercurial libjpg graphviz wget
+```
+
+Get gem essentials:
 Install homebrew cask command.
 ```shell
 brew install caskroom/cask/brew-cask
