@@ -34,5 +34,10 @@ brew cask install google-chrome firefox slack spotify sublime-text vagrant vlc
 
 Get essential eggs.
 ```shell
-pip install flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six virtualenv wheel
+pip install celery flask ipython Jinja2 lxml pep8 pyflakes setuptools setuptools-git six sqlalchemy virtualenv wheel
+```
+
+Get essential nodes.
+```shell
+npm install -g bower gulp grunt yo
 ```
