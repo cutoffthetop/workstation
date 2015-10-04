@@ -1,8 +1,6 @@
 **Workstation Setup**
 
-Install latest version of Mac OS X.
-Configure System Preferences.
-Install App Store applications.
+Install latest version of Mac OS X, configure System Preferences and install App Store applications.
 
 Install command line tools.
 ```shell
