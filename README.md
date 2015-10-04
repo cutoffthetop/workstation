@@ -29,7 +29,7 @@ brew cask install google-chrome firefox slack spotify sublime-text tuntap vagran
 
 Get essential eggs.
 ```shell
-pip install celery flask ipython Jinja2 lxml pep8 pyflakes pyramid setuptools setuptools-git six sqlalchemy virtualenv wheel
+pip install batou celery flask ipython Jinja2 lxml numpy pep8 pyflakes pyramid scipy setuptools setuptools-git six sqlalchemy virtualenv wheel
 ```
 
 Get essential nodes.
