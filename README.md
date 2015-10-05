@@ -1,5 +1,7 @@
 **Workstation Setup**
 
+_Todo: Let chef do all the work_
+
 Install latest version of Mac OS X, configure System Preferences and install App Store applications.
 
 Install command line tools.
@@ -24,7 +26,7 @@ gem install bundler compass rails
 
 Get essential casks.
 ```shell
-brew cask install google-chrome firefox knock screenhero skype slack spotify sublime-text tuntap vagrant vlc
+brew cask install google-chrome firefox knock screenhero skype slack spotify sublime-text tuntap vagrant virtualbox vlc
 ```
 
 Get essential eggs.
@@ -36,5 +38,3 @@ Get essential nodes.
 ```shell
 npm install -g bower gulp grunt requirejs yo
 ```
-
-_TODO: Let chef do all the work_
