@@ -26,6 +26,7 @@
 [alias]
 	slog = log --pretty=oneline --abbrev-commit
 	glog = log --graph --decorate --pretty=oneline --abbrev-commit
+	tlog = log --no-walk --tags --pretty="%h %d %s" --decorate=full
 	amend = commit --amend
 	uncommit = reset HEAD^
 	unstage = reset HEAD
