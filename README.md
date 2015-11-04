@@ -31,7 +31,7 @@ brew cask install google-chrome firefox knock screenhero skype slack spotify sub
 
 Get essential eggs.
 ```shell
-pip install batou celery flask ipython Jinja2 lxml matplotlib numpy pep8 pyflakes pyramid requests scipy setuptools setuptools-git six sqlalchemy virtualenv wheel
+pip install celery flask ipython Jinja2 lxml matplotlib numpy pep8 pyflakes pyramid requests scipy setuptools setuptools-git six sqlalchemy virtualenv wheel
 ```
 
 Get essential nodes.
