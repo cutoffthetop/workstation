@@ -16,7 +16,7 @@ Get RVM, ruby and homebrew.
 
 Get essential brews.
 ```shell
-brew install autoconf automake bash-completion brew-cask cadaver cairo cask csshx emacs gettext git glib gmp4 gnupg graphviz htop-osx imagemagick jpeg keybase libevent libexif libjpg libffi libgpg-error libgsf libksba libmemcached libpng libtiff libtool libxml2 libxslt libyaml memcached mercurial nginx ngrok node openssl openvpn pkg-config python readline redis sqlite ssh-copy-id tree vcprompt watch wget wxpython
+brew install autoconf automake bash-completion brew-cask cadaver cairo cask csshx emacs gettext git glib gmp4 gnupg graphviz htop-osx hub imagemagick jpeg keybase libevent libexif libjpg libffi libgpg-error libgsf libksba libmemcached libpng libtiff libtool libxml2 libxslt libyaml memcached mercurial nginx ngrok node openssl openvpn pkg-config python readline redis sqlite ssh-copy-id tree vcprompt watch wget wxpython
 ```
 
 Get essential gems.
