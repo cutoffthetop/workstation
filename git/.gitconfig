@@ -58,6 +58,8 @@
 	defaultToUpstream = true
 [advice]
 	statusHints = false
+[remote]
+	prune = true
 [diff]
 	renames = copies
 [rerere]
