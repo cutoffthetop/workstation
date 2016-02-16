@@ -56,6 +56,7 @@
 	autosetupmerge = true
 [merge]
 	defaultToUpstream = true
+	stat = true
 [advice]
 	statusHints = false
 [remote]
