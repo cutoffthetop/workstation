@@ -26,7 +26,7 @@ gem install bundler compass rails
 
 Get essential casks.
 ```shell
-brew cask install google-chrome eclipse-installer firefox java knock mysqlworkbench screenhero skype slack spotify sublime-text tuntap vagrant virtualbox vlc
+brew cask install google-chrome eclipse-installer firefox franz java knock mysqlworkbench screenhero skype slack soundnode spotify sublime-text tuntap vagrant virtualbox vlc
 ```
 
 Get essential eggs.
