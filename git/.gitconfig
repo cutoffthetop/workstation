@@ -1,6 +1,6 @@
 [user]
 	name = Nicolas Drebenstedt
-	email = …
+	email = cutoffthetop@users.noreply.github.com
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
