@@ -1,4 +1,4 @@
-alias subl="'/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'"
+alias subl="'/usr/local/Caskroom/sublime-text/2.0.2/Sublime Text 2.app'"
 export EDITOR="subl"
 alias ..='cd ..'
 
