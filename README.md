@@ -16,7 +16,7 @@ Get RVM, ruby and homebrew.
 
 Get essential brews.
 ```shell
-brew install autoconf automake bash-completion brew-cask cadaver cairo cask csshx emacs gettext git glib gmp4 gnupg graphviz htop-osx hub imagemagick jpeg keybase libevent libexif libjpg libffi libgpg-error libgsf libksba libmemcached libpng libtiff libtool libxml2 libxslt libyaml memcached mercurial mysql nginx ngrok node openssl openvpn pkg-config python readline redis sqlite ssh-copy-id tree vcprompt watch wget wxpython
+brew install autoconf automake bash-completion brew-cask-completion cadaver cairo cask csshx emacs gettext git glib gnupg graphviz htop-osx hub imagemagick jpeg libevent libexif libjpg libffi libgpg-error libgsf libksba libpng libtiff libtool libxml2 libxslt libyaml node openssl openvpn pkg-config  readline redis sqlite ssh-copy-id tree watch wget
 ```
 
 Get essential gems.
@@ -26,15 +26,15 @@ gem install bundler compass rails
 
 Get essential casks.
 ```shell
-brew cask install google-chrome eclipse-installer firefox franz java knock mysqlworkbench screenhero skype slack soundnode spotify sublime-text tuntap vagrant virtualbox vlc
+brew cask install google-chrome eclipse-installer firefox franz java knock screenhero skype slack soundnode spotify sublime-text tuntap vagrant virtualbox vlc
 ```
 
 Get essential eggs.
 ```shell
-pip install celery flask ipython Jinja2 lxml matplotlib numpy pep8 pyflakes pyramid requests scipy setuptools setuptools-git six sqlalchemy virtualenv wheel
+pip install celery ipython Jinja2 lxml schematics matplotlib numpy scipy keras pep8 pyflakes tornado requests scipy setuptools setuptools-git six sqlalchemy virtualenv wheel poetry redis scikit-learn
 ```
 
 Get essential nodes.
 ```shell
-npm install -g angular bower gulp grunt requirejs yo
+npm install -g angular rxjs react
 ```
